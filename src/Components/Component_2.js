@@ -1,7 +1,7 @@
 import Styles from "../Styles/Component_2.module.scss";
 
 function Component_2
-() {
+    () {
     return (
         <div className={Styles.container}>
             <div className={Styles.hiringImg}>
@@ -23,7 +23,7 @@ function Component_2
                     <div className={Styles.openings}>
 
                         <h2>
-                            Software Development Engineer II (SDE II)
+                            Software Development Engineer 
                         </h2>
 
                         <ul>
@@ -31,60 +31,61 @@ function Component_2
                             <li>Dockers, Flutter</li>
                             <li>Mobile/Web App Development</li>
                         </ul>
+
                     </div>
+
+                    <button className={Styles.applyBtn}>Apply</button>
 
                 </div>
 
                 <div className={Styles.card}>
 
                     <div className={Styles.openingImg}>
-                        <img src="https://edvoy-strapi-assets.s3.ap-south-1.amazonaws.com/best_colleges_for_robotics_engineering_046576669c.jpg" />
+                        <img src="https://www.spec-india.com/wp-content/uploads/2023/01/Banner-Hire-Node-Developer.png" />
                     </div>
 
                     <div className={Styles.openings}>
                         <h2>
-                            Robotics Engineer I (RE - I (PERCEPTION))
+                            Node Js Instructor
                         </h2>
 
                         <ul>
-                            <li>C++, ROS1/ROS2,</li>
-                            <li>SLAM, OpenCV.</li>
-                            <li>CUDA, Pytorch.</li>
-                            <li>TensorFlow, Navigation</li>
+                            <li>Single-threaded Event Loop</li>
+                            <li>SLAM, OpenCV</li>
+                            <li>Built-in Package Manager (npm)</li>
+                            <li>V8 JavaScript Engine</li>
                         </ul>
+
                     </div>
+
+                    <button className={Styles.applyBtn}>Apply</button>
 
                 </div>
 
                 <div className={Styles.card}>
 
                     <div className={Styles.openingImg}>
-                        <img src="https://www.supplychainbrain.com/ext/resources/2022/12/13/VISIBILITY-IT-DIGITAL-TRANSFORMATION-PLATFORM-TECHNOLOGY-iStock-greenbutterfly-1363746705.jpg?t=1670971234&width=1031" />
+                        <img src="https://careersblog.enterprise.co.uk/wp-content/uploads/2015/10/iStock_000062258734_Medium.jpg" />
                     </div>
 
                     <div className={Styles.openings}>
                         <h2>
-                            Supply Chain Engineer (SCE I)
+                            Student Mentor
                         </h2>
 
                         <ul>
-                            <li>Lean Six Sigma</li>
-                            <li>Supply chain management</li>
-                            <li>Inventory</li>
-                            <li>JIT</li>
+                            <li>Course Progess Updates</li>
+                            <li>Motivate Students</li>
+                            <li>Doubt Resolution</li>
                         </ul>
+
                     </div>
 
+                    <button className={Styles.applyBtn}>Apply</button>
+
                 </div>
 
 
-                <div className={Styles.bottomLine}>
-                    <h3>
-                        “If you are excited about the prospect of building awesome tech and robots,
-                        we’d love to hear from you”. Please email us at 
-                        <span className={Styles.email}> hr@getpeppermint.co</span>
-                    </h3>
-                </div>
 
             </div>
 
@@ -93,4 +94,4 @@ function Component_2
 }
 
 export default Component_2
-;
+    ;

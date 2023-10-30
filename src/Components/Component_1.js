@@ -10,29 +10,29 @@ function Component_1() {
             <div className={Styles.navBar}>
 
                 <div className={Styles.logo}>
-                    <img src="https://getpeppermint.co/wp-content/uploads/2017/05/Untitled-design-86-1.png"  />
+                    <img src="https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_362,w_780,x_0,y_0/v1580249584/tenants/f7ad7557-d52d-4af2-bcb5-ec334f8fc6b6/59a7c5ec6587427db30d47fa237c7a85/CN-logo-blk-backgrnd.png" />
                 </div>
 
                 <div className={Styles.horizontal_menu}>
 
                     <ul type="none">
                         <li>
-                            <a href="https://getpeppermint.co/">Home</a>
+                            Home
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/about-us/">About Us</a>
+                            About Us
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/solutions/">Solutions</a>
+                            Courses
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/products/">Products</a>
+                            Practice
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/products/#">Resources</a>
+                            Classroom
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/contacts/">Contact Us</a>
+                            Contact Us
                         </li>
 
                     </ul>
@@ -50,14 +50,16 @@ function Component_1() {
                 <div className={Styles.block2}>
 
                     <div className={Styles.heading}>
-                        Peppermint Robotics Careers
+                        Code Ninjas Careers
                     </div>
 
                     <div className={Styles.quote}>
                         <p>
-                            "There are an endless number of things to discover about robotics.
-                            A lot of it is just too fantastic for people to believe."
-                            ~ Daniel H. Wilson
+                            "You might not think that programmers are artists, but programming
+                            is an extremely creative profession. Its logic-based creativity."
+                            <p className={Styles.quoteBy}>
+                                ~ John Romero
+                            </p>
                         </p>
 
                         <p className={Styles.joinUs}>
@@ -67,8 +69,8 @@ function Component_1() {
 
                 </div>
 
-                <div className={Styles.roboImg}>
-                    <img src="https://circuitdigest.com/sites/default/files/inlineimages/u3/Peppermint-Autonomous-Floor-Cleaning-Robot.jpg" />
+                <div className={Styles.creativeCodingImg}>
+                    <img src="https://www.chalmers.se/_next/image/?url=https%3A%2F%2Fcms.www.chalmers.se%2FMedia%2Fmb3hi4kn%2Fcoding-7-1920.jpg%3Fwidth%3D1920%26height%3D1080%26rnd%3D133293116108230000%26quality%3D60%26format%3Dwebp&w=3840&q=85" />
                 </div>
 
             </div>

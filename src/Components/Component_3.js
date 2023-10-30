@@ -9,55 +9,88 @@ function Component_3() {
         <div className={Styles.container}>
 
             <div className={Styles.logo}>
-                <img src="https://getpeppermint.co/wp-content/uploads/2017/05/Untitled-design-86-1.png" />
+                <img src="https://res.cloudinary.com/micronetonline/image/upload/c_crop,h_362,w_780,x_0,y_0/v1580249584/tenants/f7ad7557-d52d-4af2-bcb5-ec334f8fc6b6/59a7c5ec6587427db30d47fa237c7a85/CN-logo-blk-backgrnd.png" />
             </div>
 
             <div className={Styles.container2}>
 
-                <div className={Styles.quickLinks}>
+                <div >
 
                     <h2>Quick Links</h2>
 
                     <ul className={Styles.ul_Class}>
                         <li>
-                            <a href="https://getpeppermint.co/">Home</a>
+                            Home
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/faq/">FAQs</a>
+                            About Us
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/case-studies/">Case Studies</a>
+                            Privacy Policy
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/products/">Products</a>
+                            Terms and Conditions
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/blog/">Blog</a>
+                            Bug Bounty
                         </li>
                         <li>
-                            <a href="">Privacy Policy</a>
+                            Our Students
                         </li>
                         <li>
-                            <a href="">Careers</a>
+                            Press Release
                         </li>
 
                     </ul>
 
                 </div>
 
-                <div className={Styles.recentPosts}>
+                <div >
 
-                    <h2>Recent Posts</h2>
+                    <h2>Products</h2>
 
                     <ul className={Styles.ul_Class}>
                         <li>
-                            <a href="https://getpeppermint.co/material-handling-with-amrs/">Elevating Efficiency: Evolution of Material Handling with AMRs</a>
+                            Certificate Courses
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/autonomous-mobile-robots-the-future-of-efficient-material-handling/">Autonomous Mobile Robots: The Future of Efficient Material Handling</a>
+                            Try Courses for Free
                         </li>
                         <li>
-                            <a href="https://getpeppermint.co/robotic-floor-scrubbers-the-future-of-airport-cleaning/">Robotic Floor Scrubbers – The Future of Autonomous Cleaning at Airports</a>
+                            Job Bootcamp
+                        </li>
+                        <li>
+                            Mock Interviews
+                        </li>
+                        <li>
+                            Hire Talent
+                        </li>
+                    </ul>
+
+                </div>
+
+                <div >
+
+                    <h2>Communities</h2>
+
+                    <ul className={Styles.ul_Class}>
+                        <li>
+                            Code Ninjas Studio
+                        </li>
+                        <li>
+                            Blogs
+                        </li>
+                        <li>
+                            Events
+                        </li>
+                        <li>
+                            Campus Ninjas
+                        </li>
+                        <li>
+                            Scholarship Event
+                        </li>
+                        <li>
+                            Placement Cell
                         </li>
                     </ul>
 
@@ -67,23 +100,19 @@ function Component_3() {
 
             <div className={Styles.details}>
 
-                <p>Aubotz Labs Pvt Ltd</p>
-
-                <p>CIN: U29100MH2019PTC324975</p>
-
                 <div>
                     <FontAwesomeIcon icon={faMapMarker} size="lg" color="skyblue" />
-                    <span>Survey No 116, 3/1, opp. ShubhTej Mangal Karyalay, near Balaji Chowk, Jai Bhavani Nagar, Pashan, Pune, Maharashtra 411021</span>
+                    <span>UNITECH CYBER PARK, Unit 007 - 008, GF, Tower A, Sector 39, Gurugram, Haryana 122003</span>
                 </div>
 
                 <div>
                     <FontAwesomeIcon icon={faEnvelope} size="lg" color="green" />
-                    <span>info@getpeppermint.co</span>
+                    <span>contact@codeninjas.com</span>
                 </div>
 
                 <div>
                     <FontAwesomeIcon icon={faPhone} size="lg" color="blue" />
-                    <span>+91 89567 10044</span>
+                    <span>1800-123-3598</span>
                 </div>
 
             </div>

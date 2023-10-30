@@ -67,7 +67,8 @@
 
             .openingImg {
                 height: 100%;
-        
+                background-color: white;
+
                 img {
                     height: 100%;
                     width: 100%;
@@ -80,12 +81,15 @@
                 font-size: larger;
                 word-spacing: 0.1em;
                 letter-spacing: 0.01em;
+                width: 40%;
 
                 li {
                     margin: 1rem;
                     font-family: Verdana, Geneva, Tahoma, sans-serif;
 
                 }
+
+
 
                 @media screen and (max-width:600px) {
                     font-size: large;
@@ -100,16 +104,24 @@
             }
 
 
-        }
+            .applyBtn {
+                background-color: whitesmoke;
+                border: none;
+                outline: none;
+                width: 60px;
+                font-size: large;
+                font-weight: 600;
+                font-family: cursive;
 
-        .bottomLine {
-            padding: 1rem;
-            margin: 1rem;
-
-            .email {
-                color: rgb(64, 149, 183);
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                    background-color: lightgrey;
+                }
             }
         }
+
+
 
     }
 
